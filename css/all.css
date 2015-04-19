@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    background-image: url('../images/bg_html.jpg');
+    font-family: "微軟正黑體";
+}
+.fontblue{
+    color: skyblue;
+}
+.wrap{
+    width: 800px;
+    margin: auto;
+}
+.container{
+    margin-top: 40px;
+    height: 100px;
+}
+.logo{
+    float: left;
+}
+.top{
+    float: right;
+    margin-right: 20px;
+}
+.down{
+    clear: both;
+}
+.menu{
+    float: right;
+    margin-right: 20px;
+}
+.menu a:visited{
+    text-decoration: none;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: skyblue;
+}
+.carousel{
+    margin-top: 20px;
+    height: 324px;
+    clear: both;
+}
+.Larpic img{
+    float: left;
+    width: 500px;
+}
+.word{
+    width: 300px;
+    height: 324px;
+    float: right;
+    background-color: #444444;
+}
+.word h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:skyblue;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.word p{
+    color: white;
+    padding: 10px 60px 20px 60px;
+}
+.word button{
+    width: 125px;
+    height: 50px;
+    background-color: #666666;
+    border-color: #666666;
+}
+.word button a{
+    color: white;
+}
+.word button a:hover{
+    color: skyblue;
+}
+.btn{
+    margin-left: 60px;
+}
+.intro{
+    clear: both;
+    margin-top: 50px;
+    height: 70px;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    line-height: 25px;
+}
+.intro a{
+    color: skyblue;
+    text-decoration: none;
+}
+.bottom{
+    clear: both;
+    background-color: white;
+    margin-top: 50px;
+    height: 500px;
+}
+.btn-left{
+    float: left;
+    width: 500px;
+}
+.btn-left h2{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.smapic{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.note{
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 200px;
+    line-height: 25px;
+}
+.note h3{
+    margin-top: -10px;
+    font-size: 15px;
+}
+.note p{
+    font-size: 10px;
+}
+.btn-right{
+    float: right;
+    margin-left: 30px;
+    width: 270px;
+}
+.btn-right ul{
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+.btn-right li{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.btn-right form{
+    padding-left: 20px;
+    margin-top: 150px;
+}
+.btn-right form h3{
+    margin-bottom: 10px;
+}
+.btn-right form input[type="text"]{
+    margin-bottom: 10px;
+}
+.btn-right form input[type="submit"]{
+    color: skyblue;
+    border-color: #222222;
+    background-color: #222222;
+    width: 100px;
+    height: 40px;
+}
+.footer{
+    clear: both;
+    margin-top: 50px;
+    height: 100px;
+}
+.footer p{
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+}
+.footer p a{
+    text-decoration: none;
+    color: skyblue;
+}
